@@ -1,0 +1,10 @@
+N: 2996060071
+Traceback (most recent call last):
+  File "n50.py", line 35, in <module>
+    n50 = all_len[ind[0]]
+TypeError: only integer scalar arrays can be converted to a scalar index
+N: 2957376421
+Traceback (most recent call last):
+  File "n50.py", line 35, in <module>
+    n50 = all_len[ind[0]]
+TypeError: only integer scalar arrays can be converted to a scalar index

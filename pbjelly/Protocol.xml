@@ -1,0 +1,9 @@
+<jellyProtocol>
+	<reference>/path/to/reference.fasta</reference>
+	<outputDir>/path/to/outputdirectory/</outputDir>
+	<blasr>-minMatch 8 -minPctIdentity 70 -bestn 1 -nCandidates 20
+		-maxScore -500 -nproc 20 -noSplitSubreads</blasr>
+	<input baseDir="/path/to/readdirectory/">
+		<job>filtered_subreads_over500bp.fasta</job>
+	</input>
+</jellyProtocol>

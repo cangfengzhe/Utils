@@ -1,0 +1,5 @@
+export SWEETPATH=/data/software/PBSuite_15.8.24_revise/
+#for python modules
+export PYTHONPATH=$SWEETPATH:$PYTHONPATH
+#for executables
+export PATH=/data/software/bin:$SWEETPATH/bin/:/data/software/smrtlink-5.1.0/smrtcmds/bin:$PATH

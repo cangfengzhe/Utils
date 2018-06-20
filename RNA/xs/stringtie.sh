@@ -1,0 +1,2 @@
+stringtie -G /data/xieshang/database/ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_27/GRCh37_mapping/gencode.v27lift37.annotation.tr.gff3 -b ./ -o GYT.GRCh37.transcripts.gtf -p 20 ../3.alignment/GYT.GRCh37.hisat2.bam
+stringtie -G /data/xieshang/database/ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_27/GRCh37_mapping/gencode.v27lift37.annotation.tr.gff3 -b ./ -o XTY1.GRCh37.transcripts.gtf -p 20 ../3.alignment/XTY1.GRCh37.hisat2.bam
